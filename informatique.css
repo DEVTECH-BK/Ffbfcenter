@@ -1,0 +1,124 @@
+/* Mise en forme des menus */
+.navbar{
+	border: 1px solid black;
+	margin-top: -540px;
+}
+#menus_site li:nth-child(3)
+{
+	background-color: #bebebe; 
+	/*font-weight: bold;*/
+}
+.nava{
+    background: #fff;
+    border-radius: 20px;
+   
+}
+.SERVICES{
+	color: rgb(4 21 60);
+	font-size: 50px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.reception{
+	color: red;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -70px;
+}
+.container-fluid
+{
+	margin-bottom: 50px;
+}
+.primo{
+	height: 200px;
+	margin-top: -50px;  
+}
+.primo img{
+	width: 217vh;
+	height: 400px;
+	margin-left: -110px;
+	margin-top: -150px;
+}
+.annimer_balise
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: rosybrown;
+	margin-top: -100px;
+	margin-bottom: 50px;
+}
+@media screen and (max-width: 1280px)
+{
+	.primo
+	{
+		width: 108%;
+	}
+	.primo img
+	{
+		width: 132%;
+	}
+}
+.contenu
+{
+	background: #bebebe;
+	border-radius: 5px;
+	height: auto;
+	padding: 20px 50px 20px 50px;
+	font-size: 19px;
+	text-align: justify;
+	margin-bottom: 20px;
+}	
+h4
+{
+	color: #043552;
+	text-align: left;
+	font-weight: bold;
+}
+h3
+{
+	text-align: left;
+	font-family: Impact;
+	font-weight: bold;
+	color: #043552;
+}
+.notice
+{
+	font-size: 16px;
+	padding-left: 10px;
+	font-style: italic;
+}
+@media screen and (max-width: 1280px)
+{
+	/*.paragraphe_texte, aside h3
+	{
+		font-size: 15px;
+	}*/
+	h3
+	{
+		font-size: 22px;
+	}
+	h4
+	{
+		font-size: 18px;
+	}
+	p
+	{
+		font-size: 15px;
+	}
+}
+#scrollUp
+{
+	position: fixed;
+	bottom : 20px;
+	right: -100px;
+	opacity: 0.7;
+}
+#scrollUp img
+{
+	width: 50px;
+}
