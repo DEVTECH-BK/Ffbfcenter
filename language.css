@@ -1,0 +1,139 @@
+body{
+	width: 100%;
+}
+.navbar{
+	border: 1px solid black;
+	margin-top: -540px;
+}
+#menus_site li:nth-child(2)
+{
+	background-color: #bebebe; 
+}
+.nava{
+    background: #fff;
+    border-radius: 20px;
+   
+}
+.SERVICES{
+	color: rgb(4 21 60);
+	font-size: 50px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.reception{
+	color: red;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -70px;
+}
+.container-fluid
+{
+	margin-bottom: 50px;
+}
+.primo{
+	height: 200px;
+	margin-top: -50px;  
+}
+.primo img{
+	width: 214vh;
+	height: 400px;
+	margin-left: -110px;
+	margin-top: -150px;
+}
+.annimer_balise
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: rosybrown;
+	margin-top: -100px;
+	margin-bottom: 50px;
+}
+@media screen and (max-width: 1280px)
+{
+	.primo
+	{
+		width: 108%;
+	}
+	.primo img
+	{
+		width: 132%;
+	}
+}
+.programme
+{
+	background: #bebebe;
+	border-radius: 5px;
+	height: auto;
+	padding: 20px 50px 20px 50px;
+	font-size: 19px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.article_formation
+{
+	padding: 50px 55px 20px 55px;
+}
+.article_formation p
+{
+	/*font-size: 17px;*/
+	font-family: "Times News Roman", sans-serif;
+}
+/*.intro
+{
+	padding-top: 30px;
+}*/
+.programme h2
+{
+	text-align: left;
+	font-family: Impact;
+	color: #043552;
+}
+.programme h4
+{
+	color: #043552;
+	text-align: left;
+	font-weight: bold;
+	font-family: "Franklin Gothic Medium Cond";
+}
+
+.notice
+{
+	font-size: 16px;
+	padding-left: 10px;
+	font-style: italic;
+}	
+@media screen and (max-width: 1280px)
+{
+	/*.paragraphe_texte, aside h3
+	{
+		font-size: 15px;
+	}*/
+	.programme h2
+	{
+		font-size: 22px;
+	}
+	.programme h4
+	{
+		font-size: 18px;
+	}
+	p
+	{
+		font-size: 15px;
+	}
+}
+#scrollUp
+{
+	position: fixed;
+	bottom : 20px;
+	right: -100px;
+	opacity: 0.7;
+}
+#scrollUp img
+{
+	width: 50px;
+}
